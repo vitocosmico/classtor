@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Clases Particulares</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="classtor.css">
+</head>
+<body>
+    <header>
+        <h1>Classtor</h1>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#metodologia">Nuestra Metodología</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Somos una empresa dedicada a ofrecer clases particulares personalizadas para estudiantes de todas las edades. Nuestro equipo está formado por profesionales expertos en diversas áreas académicas.</p>
+    </section>
+
+    <section id="metodologia">
+        <h2>Nuestra Metodología</h2>
+        <p>Nuestra metodología se centra en un enfoque personalizado, adaptando nuestras estrategias de enseñanza a las necesidades individuales de cada estudiante para maximizar su aprendizaje.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos clases particulares en una amplia gama de materias, incluyendo matemáticas, ciencias, idiomas y más. También preparamos a los estudiantes para exámenes estandarizados y competencias académicas.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="procesar-contacto.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Empresa de Clases Particulares XYZ. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
